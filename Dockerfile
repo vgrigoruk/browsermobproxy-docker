@@ -1,5 +1,6 @@
 FROM byrnedo/alpine-curl:latest as builder
-ARG VERSION
+ARG VERSION=2.1.3
+
 WORKDIR /app
 ADD https://github.com/lightbody/browsermob-proxy/releases/download/browsermob-proxy-$VERSION/browsermob-proxy-$VERSION-bin.zip /app/
 RUN unzip browsermob-proxy-$VERSION-bin.zip && \

@@ -9,5 +9,6 @@ RUN unzip browsermob-proxy-$VERSION-bin.zip && \
 FROM java:8-jre-alpine
 WORKDIR /app
 COPY --from=builder /app/browsermob-proxy /app/browsermob-proxy
-EXPOSE 8080-9999
+EXPOSE 8080
+EXPOSE 39500-39999
 ENTRYPOINT ["/app/browsermob-proxy/bin/browsermob-proxy"]

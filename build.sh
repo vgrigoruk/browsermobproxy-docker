@@ -1,6 +1,6 @@
 #!/bin/bash
 
-declare repo="vgrygoruk/browsermobproxy"
+declare repo="vgrygoruk/browsermob-proxy"
 declare -a versions=("2.1.3" "2.1.4")
 declare latest="2.1.4"
 

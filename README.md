@@ -16,11 +16,11 @@ More about BrowserMob Proxy here:
 With defaults: 
 
 ```
-docker run -it -p 8080-8581:8080-8581 vgrygoruk/browsermobproxy
+docker run -it -p 8080-8581:8080-8581 vgrygoruk/browsermob-proxy
 ```
 
 With bmp CLI args:
 
 ```
-docker run -it -p 8080-8180:8080-8180 vgrygoruk/browsermobproxy -ttl 60 --port 8080 --proxyPortRange 8081-8180
+docker run -it -p 8080-8180:8080-8180 vgrygoruk/browsermob-proxy -ttl 60 --port 8080 --proxyPortRange 8081-8180
 ```
